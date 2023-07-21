@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: put_on_arms
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: human_mesh
+    m_Weight: 1
+  - m_Path: human_mesh/beard
+    m_Weight: 1
+  - m_Path: human_mesh/beard/beard_a
+    m_Weight: 1
+  - m_Path: human_mesh/beard/beard_b
+    m_Weight: 1
+  - m_Path: human_mesh/beard/beard_c
+    m_Weight: 1
+  - m_Path: human_mesh/beard/beard_d
+    m_Weight: 1
+  - m_Path: human_mesh/cloth
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/cap
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/cap2
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/cap3
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/chain1
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/chain2
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/chain3
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/banker_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/cook_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/cook_suit/hat.003
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/farmer_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/farmer_suit/hat.001
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/fireman_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/fireman_suit/hat.002
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/mechanic
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/mechanic/hat.004
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/nurse_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/police_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/police_suit/hat.007
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/roober_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/roober_suit/hat.005
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/security_guard_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/security_guard_suit/hat.006
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/seller_suit
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/worker
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/complet_suits/worker/hat
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/glasses1
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/jacket
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/pullover
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/scarf
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/shirt
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/shoes1
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/shoes2
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/shoes3
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/shortpants
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/t_shirt
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/tank_top
+    m_Weight: 1
+  - m_Path: human_mesh/cloth/trousers
+    m_Weight: 1
+  - m_Path: human_mesh/hair
+    m_Weight: 1
+  - m_Path: human_mesh/hair/hair_a
+    m_Weight: 1
+  - m_Path: human_mesh/hair/hair_b
+    m_Weight: 1
+  - m_Path: human_mesh/hair/hair_c
+    m_Weight: 1
+  - m_Path: human_mesh/hair/hair_d
+    m_Weight: 1
+  - m_Path: human_mesh/human_head_mesh
+    m_Weight: 1
+  - m_Path: human_mesh/props
+    m_Weight: 1
+  - m_Path: human_mesh/props/cigarette
+    m_Weight: 1
+  - m_Path: human_mesh/props/crowbar
+    m_Weight: 1
+  - m_Path: human_mesh/props/fireaxe
+    m_Weight: 1
+  - m_Path: human_mesh/props/glock
+    m_Weight: 1
+  - m_Path: human_mesh/props/glock/bullet
+    m_Weight: 1
+  - m_Path: human_mesh/props/phone
+    m_Weight: 1
+  - m_Path: simple_custom_human
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.005
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.005/Bone.010
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.005/Bone.010/Bone.014
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.005/Bone.010/Bone.014/Bone.017
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.005/Bone.010/Bone.014/Bone.017/Bone.017_end
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.009
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.009/Bone.013
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.009/Bone.013/Bone.018
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.009/Bone.013/Bone.018/Bone.019
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/Bone.009/Bone.013/Bone.018/Bone.019/Bone.019_end
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/FPS_bone
+    m_Weight: 0
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.004
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.004/Bone.006
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.004/Bone.006/Bone.006_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011/Bone.015
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011/Bone.015/Bone.021
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011/Bone.015/Bone.021/Bone.021_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011/Bone.015/Bone.022
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.007/Bone.011/Bone.015/Bone.022/Bone.022_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.023
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.023/Bone.023_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.024
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.024/Bone.024_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.025
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.025/Bone.025_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.026
+    m_Weight: 1
+  - m_Path: simple_custom_human/Bone/FPS_bone/Bone.002/Bone.008/Bone.012/Bone.016/Bone.026/Bone.026_end
+    m_Weight: 1
+  - m_Path: simple_custom_human/Camera
+    m_Weight: 1
+  - m_Path: Spot
+    m_Weight: 1
+  - m_Path: Spot.001
+    m_Weight: 1
+  - m_Path: Spot.002
+    m_Weight: 1
+  - m_Path: Spot.003
+    m_Weight: 1

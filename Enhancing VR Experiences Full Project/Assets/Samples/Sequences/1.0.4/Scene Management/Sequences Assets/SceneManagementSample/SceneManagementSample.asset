@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e0022c0ffe974bb14d5e0611b0797, type: 3}
+  m_Name: SceneManagementSample
+  m_EditorClassIdentifier: 
+  m_RootCinematicIndex: 0
+  m_Manager:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: CinematicClipManager, ns: UnityEngine.CinematicToolbox, asm: Unity.CinematicToolbox}
+      data:
+        m_Data:
+        - id: 1
+        - id: 2
+        - id: 3
+        - id: 4
+        m_AvailableIndices:
+          id: 5
+    00000001:
+      type: {class: TimelineCinematicClip, ns: UnityEngine.CinematicToolbox, asm: Unity.CinematicToolbox}
+      data:
+        m_Name: SceneManagementSample
+        m_Fps: 24
+        m_Start: 0
+        m_Duration: 4
+        m_Parent: -1
+        m_Children: 01000000
+        m_Timeline: {fileID: 11400000, guid: ab678d195cdf5874a955a8a8916b11d2, type: 2}
+        m_ChildrenTrack: {fileID: 2681811849511300406, guid: ab678d195cdf5874a955a8a8916b11d2,
+          type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 0}
+    00000002:
+      type: {class: TimelineCinematicClip, ns: UnityEngine.CinematicToolbox, asm: Unity.CinematicToolbox}
+      data:
+        m_Name: seq_001
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 4
+        m_Parent: 0
+        m_Children: 0200000003000000
+        m_Timeline: {fileID: 11400000, guid: 9412b1afef32bee41beb5b30dfe42f98, type: 2}
+        m_ChildrenTrack: {fileID: -24531947516035911, guid: 9412b1afef32bee41beb5b30dfe42f98,
+          type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 7910523975997855651, guid: ab678d195cdf5874a955a8a8916b11d2,
+          type: 2}
+    00000003:
+      type: {class: TimelineCinematicClip, ns: UnityEngine.CinematicToolbox, asm: Unity.CinematicToolbox}
+      data:
+        m_Name: shot_10
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 1
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 491e5698d0a858446b113fb08e3840bc, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Children
+        m_EditorialClipAsset: {fileID: 1452752838726358982, guid: 9412b1afef32bee41beb5b30dfe42f98,
+          type: 2}
+    00000004:
+      type: {class: TimelineCinematicClip, ns: UnityEngine.CinematicToolbox, asm: Unity.CinematicToolbox}
+      data:
+        m_Name: shot_20
+        m_Fps: -1
+        m_Start: 2
+        m_Duration: 2
+        m_Parent: 1
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 8fa175cc88b407a43bd6df75e824cb20, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Children
+        m_EditorialClipAsset: {fileID: -6007164094353255319, guid: 9412b1afef32bee41beb5b30dfe42f98,
+          type: 2}
+    00000005:
+      type: {class: , ns: , asm: }

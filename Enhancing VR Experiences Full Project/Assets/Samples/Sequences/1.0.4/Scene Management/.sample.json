@@ -1,0 +1,5 @@
+{
+    "displayName" : "Scene Management",
+    "description" : "This sample contains a Scene with a Master Sequence that uses the Scene Management features. It is made of multiple sequences, each with their own Scene Activation Track to control the activation of different Scenes for set and lighting.",
+    "createSeparatePackage": false
+}

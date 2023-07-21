@@ -1,0 +1,2 @@
+After unpacking the package, you need to enable Opaque Texture from the pipeline settings
+Otherwise the material won't be completely transparent

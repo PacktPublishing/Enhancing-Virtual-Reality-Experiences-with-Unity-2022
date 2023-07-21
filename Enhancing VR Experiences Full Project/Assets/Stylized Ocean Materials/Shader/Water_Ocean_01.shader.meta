@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 51bb15ebb01624844944395f241ad462
+timeCreated: 1551912364
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Addittionalfoam: {fileID: 2800000, guid: b92bb13943100dc4daef3c023e29ca9f, type: 3}
+  - _MainTexture: {fileID: 2800000, guid: db27233ffd078ad489d3648c342cc8a0, type: 3}
+  - _FoamTexture: {fileID: 2800000, guid: 45a3318a46efbcf42a074a7bc3d995f4, type: 3}
+  - _Noise: {fileID: 2800000, guid: 70fb9d1a88b56e24e999e7b6f4c3fec3, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
