@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LeftHand
+  - Whiteboard
+  - pickuppoint
+  - sittingpoint
+  - stealingpoint
+  - waypoint
+  - Waypoint
+  - Traffic
+  - walkingpath
+  - FxTemporaire
+  - Ground
+  - Grass
+  - Ice
+  - grenade
+  - destruction
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Floor
+  - PostProcessing
+  - ground
+  - 
+  - marker
+  - road
+  - ceilinglights
+  - grass
+  - ice
+  - 
+  - 
+  - 
+  - 
+  - 
+  - GazeInteraction
+  - Gaze
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
