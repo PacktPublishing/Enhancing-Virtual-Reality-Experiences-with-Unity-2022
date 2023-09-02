@@ -36,7 +36,11 @@ public class GrenadeSpawner : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        other.GetComponent<Rigidbody>().useGravity = false;
+        if (other.GetComponent<Rigidbody>() != null)
+        {
+
+            other.GetComponent<Rigidbody>().useGravity = false;
+        }
     }
     private void OnTriggerExit(Collider other)
     {

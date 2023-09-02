@@ -1,60 +1,164 @@
 fileFormatVersion: 2
 guid: 534f375dff9795c4baa527015ef28ddb
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: AreaLine
-    100004: FloorShort
-    100006: FloorShort1
-    100008: LongOverhangWall
-    100010: LongOverhangWall 1
-    100012: pCylinder1
-    100014: polySurface1
-    100016: polySurface2
-    100018: polySurface2 1
-    100020: polySurface4
-    100022: polySurface5
-    100024: polySurface6
-    100026: transform1
-    100028: transform10
-    100030: transform2
-    100032: transform3
-    100034: transform4
-    100036: transform5
-    100038: transform6
-    100040: transform7
-    100042: transform8
-    100044: transform9
-    400000: //RootNode
-    400002: AreaLine
-    400004: FloorShort
-    400006: FloorShort1
-    400008: LongOverhangWall
-    400010: LongOverhangWall 1
-    400012: pCylinder1
-    400014: polySurface1
-    400016: polySurface2
-    400018: polySurface2 1
-    400020: polySurface4
-    400022: polySurface5
-    400024: polySurface6
-    400026: transform1
-    400028: transform10
-    400030: transform2
-    400032: transform3
-    400034: transform4
-    400036: transform5
-    400038: transform6
-    400040: transform7
-    400042: transform8
-    400044: transform9
-    2100000: LinesWhite
-    2300000: AreaLine
-    2300002: //RootNode
-    3300000: AreaLine
-    3300002: //RootNode
-    4300000: AreaLine
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: AreaLine
+  - first:
+      1: 100004
+    second: FloorShort
+  - first:
+      1: 100006
+    second: FloorShort1
+  - first:
+      1: 100008
+    second: LongOverhangWall
+  - first:
+      1: 100010
+    second: LongOverhangWall 1
+  - first:
+      1: 100012
+    second: pCylinder1
+  - first:
+      1: 100014
+    second: polySurface1
+  - first:
+      1: 100016
+    second: polySurface2
+  - first:
+      1: 100018
+    second: polySurface2 1
+  - first:
+      1: 100020
+    second: polySurface4
+  - first:
+      1: 100022
+    second: polySurface5
+  - first:
+      1: 100024
+    second: polySurface6
+  - first:
+      1: 100026
+    second: transform1
+  - first:
+      1: 100028
+    second: transform10
+  - first:
+      1: 100030
+    second: transform2
+  - first:
+      1: 100032
+    second: transform3
+  - first:
+      1: 100034
+    second: transform4
+  - first:
+      1: 100036
+    second: transform5
+  - first:
+      1: 100038
+    second: transform6
+  - first:
+      1: 100040
+    second: transform7
+  - first:
+      1: 100042
+    second: transform8
+  - first:
+      1: 100044
+    second: transform9
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: AreaLine
+  - first:
+      4: 400004
+    second: FloorShort
+  - first:
+      4: 400006
+    second: FloorShort1
+  - first:
+      4: 400008
+    second: LongOverhangWall
+  - first:
+      4: 400010
+    second: LongOverhangWall 1
+  - first:
+      4: 400012
+    second: pCylinder1
+  - first:
+      4: 400014
+    second: polySurface1
+  - first:
+      4: 400016
+    second: polySurface2
+  - first:
+      4: 400018
+    second: polySurface2 1
+  - first:
+      4: 400020
+    second: polySurface4
+  - first:
+      4: 400022
+    second: polySurface5
+  - first:
+      4: 400024
+    second: polySurface6
+  - first:
+      4: 400026
+    second: transform1
+  - first:
+      4: 400028
+    second: transform10
+  - first:
+      4: 400030
+    second: transform2
+  - first:
+      4: 400032
+    second: transform3
+  - first:
+      4: 400034
+    second: transform4
+  - first:
+      4: 400036
+    second: transform5
+  - first:
+      4: 400038
+    second: transform6
+  - first:
+      4: 400040
+    second: transform7
+  - first:
+      4: 400042
+    second: transform8
+  - first:
+      4: 400044
+    second: transform9
+  - first:
+      21: 2100000
+    second: LinesWhite
+  - first:
+      23: 2300000
+    second: AreaLine
+  - first:
+      23: 2300002
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: AreaLine
+  - first:
+      33: 3300002
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: AreaLine
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -62,7 +166,7 @@ ModelImporter:
       name: LinesWhite
     second: {fileID: 2100000, guid: 09d2711cb134c78409078c4645fae1cd, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
     materialLocation: 1
@@ -71,6 +175,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -92,36 +197,51 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -131,14 +251,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

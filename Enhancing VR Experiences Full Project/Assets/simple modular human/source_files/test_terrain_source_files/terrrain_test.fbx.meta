@@ -1,560 +1,1658 @@
 fileFormatVersion: 2
 guid: bafa316964768454a9905be56679224f
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: banker_suit
-    100002: beard
-    100004: beard_a
-    100006: beard_b
-    100008: beard_c
-    100010: beard_d
-    100012: Bone
-    100014: Bone.002
-    100016: Bone.004
-    100018: Bone.005
-    100020: Bone.006
-    100022: Bone.006_end
-    100024: Bone.007
-    100026: Bone.008
-    100028: Bone.009
-    100030: Bone.010
-    100032: Bone.011
-    100034: Bone.012
-    100036: Bone.013
-    100038: Bone.014
-    100040: Bone.015
-    100042: Bone.016
-    100044: Bone.017
-    100046: Bone.017_end
-    100048: Bone.018
-    100050: Bone.019
-    100052: Bone.019_end
-    100054: Bone.021
-    100056: Bone.021_end
-    100058: Bone.022
-    100060: Bone.022_end
-    100062: Bone.023
-    100064: Bone.023_end
-    100066: Bone.024
-    100068: Bone.024_end
-    100070: Bone.025
-    100072: Bone.025_end
-    100074: Bone.026
-    100076: Bone.026_end
-    100078: bullet
-    100080: Camera
-    100082: cap
-    100084: cap2
-    100086: cap3
-    100088: chain1
-    100090: chain2
-    100092: chain3
-    100094: cigarette
-    100096: cloth
-    100098: complet_suits
-    100100: cook_suit
-    100102: crowbar
-    100104: //RootNode
-    100106: farmer_suit
-    100108: fireaxe
-    100110: fireman_suit
-    100112: FPS_bone
-    100114: glasses1
-    100116: glock
-    100118: hair
-    100120: hair_a
-    100122: hair_b
-    100124: hair_c
-    100126: hair_d
-    100128: hat
-    100130: hat.001
-    100132: hat.002
-    100134: hat.003
-    100136: hat.004
-    100138: hat.005
-    100140: hat.006
-    100142: hat.007
-    100144: human_head_mesh
-    100146: human_mesh
-    100148: jacket
-    100150: mechanic
-    100152: nurse_suit
-    100154: phone
-    100156: police_suit
-    100158: props
-    100160: pullover
-    100162: roober_suit
-    100164: scarf
-    100166: security_guard_suit
-    100168: seller_suit
-    100170: shirt
-    100172: shoes1
-    100174: shoes2
-    100176: shoes3
-    100178: shortpants
-    100180: simple_custom_human
-    100182: Spot
-    100184: Spot.001
-    100186: Spot.002
-    100188: Spot.003
-    100190: t_shirt
-    100192: tank_top
-    100194: trousers
-    100196: worker
-    100198: hair_e
-    100200: Bone_002
-    100202: Bone_004
-    100204: Bone_005
-    100206: Bone_006
-    100208: Bone_007
-    100210: Bone_008
-    100212: Bone_009
-    100214: Bone_010
-    100216: Bone_011
-    100218: Bone_012
-    100220: Bone_013
-    100222: Bone_014
-    100224: Bone_015
-    100226: Bone_016
-    100228: Bone_017
-    100230: Bone_018
-    100232: Bone_019
-    100234: Bone_021
-    100236: Bone_022
-    100238: Bone_023
-    100240: Bone_024
-    100242: Bone_025
-    100244: Bone_026
-    100246: glasses
-    100248: hat_001
-    100250: hat_002
-    100252: hat_003
-    100254: hat_004
-    100256: hat_005
-    100258: hat_006
-    100260: hat_007
-    100262: Plane
-    100264: Plane.001
-    400000: banker_suit
-    400002: beard
-    400004: beard_a
-    400006: beard_b
-    400008: beard_c
-    400010: beard_d
-    400012: Bone
-    400014: Bone.002
-    400016: Bone.004
-    400018: Bone.005
-    400020: Bone.006
-    400022: Bone.006_end
-    400024: Bone.007
-    400026: Bone.008
-    400028: Bone.009
-    400030: Bone.010
-    400032: Bone.011
-    400034: Bone.012
-    400036: Bone.013
-    400038: Bone.014
-    400040: Bone.015
-    400042: Bone.016
-    400044: Bone.017
-    400046: Bone.017_end
-    400048: Bone.018
-    400050: Bone.019
-    400052: Bone.019_end
-    400054: Bone.021
-    400056: Bone.021_end
-    400058: Bone.022
-    400060: Bone.022_end
-    400062: Bone.023
-    400064: Bone.023_end
-    400066: Bone.024
-    400068: Bone.024_end
-    400070: Bone.025
-    400072: Bone.025_end
-    400074: Bone.026
-    400076: Bone.026_end
-    400078: bullet
-    400080: Camera
-    400082: cap
-    400084: cap2
-    400086: cap3
-    400088: chain1
-    400090: chain2
-    400092: chain3
-    400094: cigarette
-    400096: cloth
-    400098: complet_suits
-    400100: cook_suit
-    400102: crowbar
-    400104: //RootNode
-    400106: farmer_suit
-    400108: fireaxe
-    400110: fireman_suit
-    400112: FPS_bone
-    400114: glasses1
-    400116: glock
-    400118: hair
-    400120: hair_a
-    400122: hair_b
-    400124: hair_c
-    400126: hair_d
-    400128: hat
-    400130: hat.001
-    400132: hat.002
-    400134: hat.003
-    400136: hat.004
-    400138: hat.005
-    400140: hat.006
-    400142: hat.007
-    400144: human_head_mesh
-    400146: human_mesh
-    400148: jacket
-    400150: mechanic
-    400152: nurse_suit
-    400154: phone
-    400156: police_suit
-    400158: props
-    400160: pullover
-    400162: roober_suit
-    400164: scarf
-    400166: security_guard_suit
-    400168: seller_suit
-    400170: shirt
-    400172: shoes1
-    400174: shoes2
-    400176: shoes3
-    400178: shortpants
-    400180: simple_custom_human
-    400182: Spot
-    400184: Spot.001
-    400186: Spot.002
-    400188: Spot.003
-    400190: t_shirt
-    400192: tank_top
-    400194: trousers
-    400196: worker
-    400198: hair_e
-    400200: Bone_002
-    400202: Bone_004
-    400204: Bone_005
-    400206: Bone_006
-    400208: Bone_007
-    400210: Bone_008
-    400212: Bone_009
-    400214: Bone_010
-    400216: Bone_011
-    400218: Bone_012
-    400220: Bone_013
-    400222: Bone_014
-    400224: Bone_015
-    400226: Bone_016
-    400228: Bone_017
-    400230: Bone_018
-    400232: Bone_019
-    400234: Bone_021
-    400236: Bone_022
-    400238: Bone_023
-    400240: Bone_024
-    400242: Bone_025
-    400244: Bone_026
-    400246: glasses
-    400248: hat_001
-    400250: hat_002
-    400252: hat_003
-    400254: hat_004
-    400256: hat_005
-    400258: hat_006
-    400260: hat_007
-    400262: Plane
-    400264: Plane.001
-    2000000: Camera
-    2100000: Material.001
-    2100002: Material.032
-    2100004: Material.036
-    2100006: Material.035
-    2100008: Material.034
-    2100010: Material.033
-    2100012: Material.030
-    2100014: Material.031
-    2100016: Material.029
-    2100018: Material.028
-    2100020: Material.027
-    2100022: Material.026
-    2100024: Material.014
-    2100026: Material.020
-    2100028: Material.022
-    2100030: Material.023
-    2100032: Material.018
-    2100034: Material.025
-    2100036: Material.024
-    2100038: Material.019
-    2100040: Material.021
-    2100042: Material.007
-    2100044: Material.009
-    2100046: Material
-    2100048: Material.008
-    2100050: Material.003
-    2100052: Material.006
-    2100054: Material.005
-    2100056: Material.004
-    2100058: Material.017
-    2100060: Material.002
-    2100062: Material.011
-    2100064: Material.012
-    2100066: Material.016
-    2100068: Material.015
-    2100070: No Name
-    2100072: Material.013
-    2100074: Material.010
-    2100076: Material_001__skin
-    2100078: Material_001__skin_Lightbrown_brown_png
-    2100080: Material_036
-    2100082: Material_035
-    2100084: Material_034
-    2100086: Material_033
-    2100088: Material_030
-    2100090: Material_031__skin
-    2100092: Material_031
-    2100094: Material_029__skin
-    2100096: Material_028__hair_b_
-    2100098: Material_027__skin
-    2100100: Material_026__worker_suit
-    2100102: Material_014__secureityguard_suit
-    2100104: Material_014
-    2100106: Material_020__secureityguard_suit
-    2100108: Material_022__robber_suit
-    2100110: Material_022__skin
-    2100112: Material_023__police_suit
-    2100114: Material_018
-    2100116: Material_018__skin
-    2100118: Material_025
-    2100120: Material_025__farmer_suit
-    2100122: Material_025__shoes1_
-    2100124: Material_025__secureityguard_suit
-    2100126: Material_024__fireman_suit
-    2100128: Material_019__farmer_suit
-    2100130: Material_019
-    2100132: Material_021__cook_suit
-    2100134: Material_007__banker_suit
-    2100136: Material_007
-    2100138: Material_009
-    2100140: Material__tanktop_
-    2100142: Material_008
-    2100144: Material_003__trousers_001
-    2100146: Material_006__shoes1_
-    2100148: Material_005__shoes1_
-    2100150: Material_004__shirt_
-    2100152: Material_017
-    2100154: Material_002__pulover_001
-    2100156: Material_011__jacket
-    2100158: Material_012__glasses1_
-    2100160: Material_016__chain3_
-    2100162: Material_015__chain2
-    2100164: None__chain2
-    2100166: Material_013__cap2
-    2100168: Material_010__cap2
-    2100170: Material_010__cap_
-    2100172: Material_032
-    2100174: material2
-    2100176: material1
-    2100178: material3.001
-    2300000: beard
-    2300002: cloth
-    2300004: complet_suits
-    2300006: hair
-    2300008: props
-    2300010: Plane
-    2300012: Plane.001
-    3300000: beard
-    3300002: cloth
-    3300004: complet_suits
-    3300006: hair
-    3300008: props
-    3300010: Plane
-    3300012: Plane.001
-    4300000: human_mesh
-    4300002: beard
-    4300004: beard_d
-    4300006: beard_c
-    4300008: beard_b
-    4300010: beard_a
-    4300012: props
-    4300014: phone
-    4300016: fireaxe
-    4300018: glock
-    4300020: bullet
-    4300022: crowbar
-    4300024: cigarette
-    4300026: hair
-    4300028: hair_d
-    4300030: hair_c
-    4300032: hair_b
-    4300034: hair_a
-    4300036: cloth
-    4300038: complet_suits
-    4300040: worker
-    4300042: hat
-    4300044: seller_suit
-    4300046: security_guard_suit
-    4300048: hat.006
-    4300050: roober_suit
-    4300052: hat.005
-    4300054: police_suit
-    4300056: hat.007
-    4300058: nurse_suit
-    4300060: mechanic
-    4300062: hat.004
-    4300064: fireman_suit
-    4300066: hat.002
-    4300068: farmer_suit
-    4300070: hat.001
-    4300072: cook_suit
-    4300074: hat.003
-    4300076: banker_suit
-    4300078: trousers
-    4300080: tank_top
-    4300082: t_shirt
-    4300084: shortpants
-    4300086: shoes3
-    4300088: shoes2
-    4300090: shoes1
-    4300092: shirt
-    4300094: scarf
-    4300096: pullover
-    4300098: jacket
-    4300100: glasses1
-    4300102: chain3
-    4300104: chain2
-    4300106: chain1
-    4300108: cap3
-    4300110: cap2
-    4300112: cap
-    4300114: human_head_mesh
-    4300116: hair_e
-    4300118: hat_006
-    4300120: hat_005
-    4300122: hat_007
-    4300124: hat_004
-    4300126: hat_002
-    4300128: hat_001
-    4300130: hat_003
-    4300132: glasses
-    4300134: Plane.001
-    4300136: Plane
-    7400000: simple_custom_human|crowbar_hit
-    7400002: simple_custom_human|crowbar_idle
-    7400004: simple_custom_human|crowbar_work
-    7400006: simple_custom_human|drinking
-    7400008: simple_custom_human|eating
-    7400010: simple_custom_human|fireaxe_hit
-    7400012: simple_custom_human|fireaxe_idle
-    7400014: simple_custom_human|glock_aim
-    7400016: simple_custom_human|glock_aim_shoot
-    7400018: simple_custom_human|glock_idle
-    7400020: simple_custom_human|glock_idle_shoot
-    7400022: simple_custom_human|glock_reload
-    7400024: simple_custom_human|goto_crowbar_work
-    7400026: simple_custom_human|goto_ducking_afraid
-    7400028: simple_custom_human|goto_hanging_up_wall
-    7400030: simple_custom_human|goto_phone_call
-    7400032: simple_custom_human|hanging_up_wall
-    7400034: simple_custom_human|head_up_move
-    7400036: simple_custom_human|head_up_stay
-    7400038: simple_custom_human|hello
-    7400040: simple_custom_human|hit_left
-    7400042: simple_custom_human|hit_ready_idle
-    7400044: simple_custom_human|hit_right
-    7400046: simple_custom_human|idle
-    7400048: simple_custom_human|look_around_1
-    7400050: simple_custom_human|look_around_2
-    7400052: simple_custom_human|look_around_3
-    7400054: simple_custom_human|look_around_4
-    7400056: simple_custom_human|phone_call
-    7400058: simple_custom_human|run
-    7400060: simple_custom_human|sit_down
-    7400062: simple_custom_human|sitting
-    7400064: simple_custom_human|smoking
-    7400066: simple_custom_human|walk
-    7400068: simple_custom_human|walk_ducking
-    7400070: simple_custom_human|hands_up_move
-    7400072: simple_custom_human|heads_up_stay
-    7400074: simple_custom_human|in_ducking_afraid
-    7400076: simple_custom_human|hello (1)
-    7400078: simple_custom_human|dancing
-    7400080: simple_custom_human|pick_up
-    9500000: //RootNode
-    10800000: Spot
-    10800002: Spot.001
-    10800004: Spot.002
-    10800006: Spot.003
-    13700000: banker_suit
-    13700002: beard_a
-    13700004: beard_b
-    13700006: beard_c
-    13700008: beard_d
-    13700010: bullet
-    13700012: cap
-    13700014: cap2
-    13700016: cap3
-    13700018: chain1
-    13700020: chain2
-    13700022: chain3
-    13700024: cigarette
-    13700026: cook_suit
-    13700028: crowbar
-    13700030: farmer_suit
-    13700032: fireaxe
-    13700034: fireman_suit
-    13700036: glasses1
-    13700038: glock
-    13700040: hair_a
-    13700042: hair_b
-    13700044: hair_c
-    13700046: hair_d
-    13700048: hat
-    13700050: hat.001
-    13700052: hat.002
-    13700054: hat.003
-    13700056: hat.004
-    13700058: hat.005
-    13700060: hat.006
-    13700062: hat.007
-    13700064: human_head_mesh
-    13700066: human_mesh
-    13700068: jacket
-    13700070: mechanic
-    13700072: nurse_suit
-    13700074: phone
-    13700076: police_suit
-    13700078: pullover
-    13700080: roober_suit
-    13700082: scarf
-    13700084: security_guard_suit
-    13700086: seller_suit
-    13700088: shirt
-    13700090: shoes1
-    13700092: shoes2
-    13700094: shoes3
-    13700096: shortpants
-    13700098: t_shirt
-    13700100: tank_top
-    13700102: trousers
-    13700104: worker
-    13700106: hair_e
-    13700108: glasses
-    13700110: hat_001
-    13700112: hat_002
-    13700114: hat_003
-    13700116: hat_004
-    13700118: hat_005
-    13700120: hat_006
-    13700122: hat_007
-    2186277476908879412: ImportLogs
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: banker_suit
+  - first:
+      1: 100002
+    second: beard
+  - first:
+      1: 100004
+    second: beard_a
+  - first:
+      1: 100006
+    second: beard_b
+  - first:
+      1: 100008
+    second: beard_c
+  - first:
+      1: 100010
+    second: beard_d
+  - first:
+      1: 100012
+    second: Bone
+  - first:
+      1: 100014
+    second: Bone.002
+  - first:
+      1: 100016
+    second: Bone.004
+  - first:
+      1: 100018
+    second: Bone.005
+  - first:
+      1: 100020
+    second: Bone.006
+  - first:
+      1: 100022
+    second: Bone.006_end
+  - first:
+      1: 100024
+    second: Bone.007
+  - first:
+      1: 100026
+    second: Bone.008
+  - first:
+      1: 100028
+    second: Bone.009
+  - first:
+      1: 100030
+    second: Bone.010
+  - first:
+      1: 100032
+    second: Bone.011
+  - first:
+      1: 100034
+    second: Bone.012
+  - first:
+      1: 100036
+    second: Bone.013
+  - first:
+      1: 100038
+    second: Bone.014
+  - first:
+      1: 100040
+    second: Bone.015
+  - first:
+      1: 100042
+    second: Bone.016
+  - first:
+      1: 100044
+    second: Bone.017
+  - first:
+      1: 100046
+    second: Bone.017_end
+  - first:
+      1: 100048
+    second: Bone.018
+  - first:
+      1: 100050
+    second: Bone.019
+  - first:
+      1: 100052
+    second: Bone.019_end
+  - first:
+      1: 100054
+    second: Bone.021
+  - first:
+      1: 100056
+    second: Bone.021_end
+  - first:
+      1: 100058
+    second: Bone.022
+  - first:
+      1: 100060
+    second: Bone.022_end
+  - first:
+      1: 100062
+    second: Bone.023
+  - first:
+      1: 100064
+    second: Bone.023_end
+  - first:
+      1: 100066
+    second: Bone.024
+  - first:
+      1: 100068
+    second: Bone.024_end
+  - first:
+      1: 100070
+    second: Bone.025
+  - first:
+      1: 100072
+    second: Bone.025_end
+  - first:
+      1: 100074
+    second: Bone.026
+  - first:
+      1: 100076
+    second: Bone.026_end
+  - first:
+      1: 100078
+    second: bullet
+  - first:
+      1: 100080
+    second: Camera
+  - first:
+      1: 100082
+    second: cap
+  - first:
+      1: 100084
+    second: cap2
+  - first:
+      1: 100086
+    second: cap3
+  - first:
+      1: 100088
+    second: chain1
+  - first:
+      1: 100090
+    second: chain2
+  - first:
+      1: 100092
+    second: chain3
+  - first:
+      1: 100094
+    second: cigarette
+  - first:
+      1: 100096
+    second: cloth
+  - first:
+      1: 100098
+    second: complet_suits
+  - first:
+      1: 100100
+    second: cook_suit
+  - first:
+      1: 100102
+    second: crowbar
+  - first:
+      1: 100104
+    second: //RootNode
+  - first:
+      1: 100106
+    second: farmer_suit
+  - first:
+      1: 100108
+    second: fireaxe
+  - first:
+      1: 100110
+    second: fireman_suit
+  - first:
+      1: 100112
+    second: FPS_bone
+  - first:
+      1: 100114
+    second: glasses1
+  - first:
+      1: 100116
+    second: glock
+  - first:
+      1: 100118
+    second: hair
+  - first:
+      1: 100120
+    second: hair_a
+  - first:
+      1: 100122
+    second: hair_b
+  - first:
+      1: 100124
+    second: hair_c
+  - first:
+      1: 100126
+    second: hair_d
+  - first:
+      1: 100128
+    second: hat
+  - first:
+      1: 100130
+    second: hat.001
+  - first:
+      1: 100132
+    second: hat.002
+  - first:
+      1: 100134
+    second: hat.003
+  - first:
+      1: 100136
+    second: hat.004
+  - first:
+      1: 100138
+    second: hat.005
+  - first:
+      1: 100140
+    second: hat.006
+  - first:
+      1: 100142
+    second: hat.007
+  - first:
+      1: 100144
+    second: human_head_mesh
+  - first:
+      1: 100146
+    second: human_mesh
+  - first:
+      1: 100148
+    second: jacket
+  - first:
+      1: 100150
+    second: mechanic
+  - first:
+      1: 100152
+    second: nurse_suit
+  - first:
+      1: 100154
+    second: phone
+  - first:
+      1: 100156
+    second: police_suit
+  - first:
+      1: 100158
+    second: props
+  - first:
+      1: 100160
+    second: pullover
+  - first:
+      1: 100162
+    second: roober_suit
+  - first:
+      1: 100164
+    second: scarf
+  - first:
+      1: 100166
+    second: security_guard_suit
+  - first:
+      1: 100168
+    second: seller_suit
+  - first:
+      1: 100170
+    second: shirt
+  - first:
+      1: 100172
+    second: shoes1
+  - first:
+      1: 100174
+    second: shoes2
+  - first:
+      1: 100176
+    second: shoes3
+  - first:
+      1: 100178
+    second: shortpants
+  - first:
+      1: 100180
+    second: simple_custom_human
+  - first:
+      1: 100182
+    second: Spot
+  - first:
+      1: 100184
+    second: Spot.001
+  - first:
+      1: 100186
+    second: Spot.002
+  - first:
+      1: 100188
+    second: Spot.003
+  - first:
+      1: 100190
+    second: t_shirt
+  - first:
+      1: 100192
+    second: tank_top
+  - first:
+      1: 100194
+    second: trousers
+  - first:
+      1: 100196
+    second: worker
+  - first:
+      1: 100198
+    second: hair_e
+  - first:
+      1: 100200
+    second: Bone_002
+  - first:
+      1: 100202
+    second: Bone_004
+  - first:
+      1: 100204
+    second: Bone_005
+  - first:
+      1: 100206
+    second: Bone_006
+  - first:
+      1: 100208
+    second: Bone_007
+  - first:
+      1: 100210
+    second: Bone_008
+  - first:
+      1: 100212
+    second: Bone_009
+  - first:
+      1: 100214
+    second: Bone_010
+  - first:
+      1: 100216
+    second: Bone_011
+  - first:
+      1: 100218
+    second: Bone_012
+  - first:
+      1: 100220
+    second: Bone_013
+  - first:
+      1: 100222
+    second: Bone_014
+  - first:
+      1: 100224
+    second: Bone_015
+  - first:
+      1: 100226
+    second: Bone_016
+  - first:
+      1: 100228
+    second: Bone_017
+  - first:
+      1: 100230
+    second: Bone_018
+  - first:
+      1: 100232
+    second: Bone_019
+  - first:
+      1: 100234
+    second: Bone_021
+  - first:
+      1: 100236
+    second: Bone_022
+  - first:
+      1: 100238
+    second: Bone_023
+  - first:
+      1: 100240
+    second: Bone_024
+  - first:
+      1: 100242
+    second: Bone_025
+  - first:
+      1: 100244
+    second: Bone_026
+  - first:
+      1: 100246
+    second: glasses
+  - first:
+      1: 100248
+    second: hat_001
+  - first:
+      1: 100250
+    second: hat_002
+  - first:
+      1: 100252
+    second: hat_003
+  - first:
+      1: 100254
+    second: hat_004
+  - first:
+      1: 100256
+    second: hat_005
+  - first:
+      1: 100258
+    second: hat_006
+  - first:
+      1: 100260
+    second: hat_007
+  - first:
+      1: 100262
+    second: Plane
+  - first:
+      1: 100264
+    second: Plane.001
+  - first:
+      4: 400000
+    second: banker_suit
+  - first:
+      4: 400002
+    second: beard
+  - first:
+      4: 400004
+    second: beard_a
+  - first:
+      4: 400006
+    second: beard_b
+  - first:
+      4: 400008
+    second: beard_c
+  - first:
+      4: 400010
+    second: beard_d
+  - first:
+      4: 400012
+    second: Bone
+  - first:
+      4: 400014
+    second: Bone.002
+  - first:
+      4: 400016
+    second: Bone.004
+  - first:
+      4: 400018
+    second: Bone.005
+  - first:
+      4: 400020
+    second: Bone.006
+  - first:
+      4: 400022
+    second: Bone.006_end
+  - first:
+      4: 400024
+    second: Bone.007
+  - first:
+      4: 400026
+    second: Bone.008
+  - first:
+      4: 400028
+    second: Bone.009
+  - first:
+      4: 400030
+    second: Bone.010
+  - first:
+      4: 400032
+    second: Bone.011
+  - first:
+      4: 400034
+    second: Bone.012
+  - first:
+      4: 400036
+    second: Bone.013
+  - first:
+      4: 400038
+    second: Bone.014
+  - first:
+      4: 400040
+    second: Bone.015
+  - first:
+      4: 400042
+    second: Bone.016
+  - first:
+      4: 400044
+    second: Bone.017
+  - first:
+      4: 400046
+    second: Bone.017_end
+  - first:
+      4: 400048
+    second: Bone.018
+  - first:
+      4: 400050
+    second: Bone.019
+  - first:
+      4: 400052
+    second: Bone.019_end
+  - first:
+      4: 400054
+    second: Bone.021
+  - first:
+      4: 400056
+    second: Bone.021_end
+  - first:
+      4: 400058
+    second: Bone.022
+  - first:
+      4: 400060
+    second: Bone.022_end
+  - first:
+      4: 400062
+    second: Bone.023
+  - first:
+      4: 400064
+    second: Bone.023_end
+  - first:
+      4: 400066
+    second: Bone.024
+  - first:
+      4: 400068
+    second: Bone.024_end
+  - first:
+      4: 400070
+    second: Bone.025
+  - first:
+      4: 400072
+    second: Bone.025_end
+  - first:
+      4: 400074
+    second: Bone.026
+  - first:
+      4: 400076
+    second: Bone.026_end
+  - first:
+      4: 400078
+    second: bullet
+  - first:
+      4: 400080
+    second: Camera
+  - first:
+      4: 400082
+    second: cap
+  - first:
+      4: 400084
+    second: cap2
+  - first:
+      4: 400086
+    second: cap3
+  - first:
+      4: 400088
+    second: chain1
+  - first:
+      4: 400090
+    second: chain2
+  - first:
+      4: 400092
+    second: chain3
+  - first:
+      4: 400094
+    second: cigarette
+  - first:
+      4: 400096
+    second: cloth
+  - first:
+      4: 400098
+    second: complet_suits
+  - first:
+      4: 400100
+    second: cook_suit
+  - first:
+      4: 400102
+    second: crowbar
+  - first:
+      4: 400104
+    second: //RootNode
+  - first:
+      4: 400106
+    second: farmer_suit
+  - first:
+      4: 400108
+    second: fireaxe
+  - first:
+      4: 400110
+    second: fireman_suit
+  - first:
+      4: 400112
+    second: FPS_bone
+  - first:
+      4: 400114
+    second: glasses1
+  - first:
+      4: 400116
+    second: glock
+  - first:
+      4: 400118
+    second: hair
+  - first:
+      4: 400120
+    second: hair_a
+  - first:
+      4: 400122
+    second: hair_b
+  - first:
+      4: 400124
+    second: hair_c
+  - first:
+      4: 400126
+    second: hair_d
+  - first:
+      4: 400128
+    second: hat
+  - first:
+      4: 400130
+    second: hat.001
+  - first:
+      4: 400132
+    second: hat.002
+  - first:
+      4: 400134
+    second: hat.003
+  - first:
+      4: 400136
+    second: hat.004
+  - first:
+      4: 400138
+    second: hat.005
+  - first:
+      4: 400140
+    second: hat.006
+  - first:
+      4: 400142
+    second: hat.007
+  - first:
+      4: 400144
+    second: human_head_mesh
+  - first:
+      4: 400146
+    second: human_mesh
+  - first:
+      4: 400148
+    second: jacket
+  - first:
+      4: 400150
+    second: mechanic
+  - first:
+      4: 400152
+    second: nurse_suit
+  - first:
+      4: 400154
+    second: phone
+  - first:
+      4: 400156
+    second: police_suit
+  - first:
+      4: 400158
+    second: props
+  - first:
+      4: 400160
+    second: pullover
+  - first:
+      4: 400162
+    second: roober_suit
+  - first:
+      4: 400164
+    second: scarf
+  - first:
+      4: 400166
+    second: security_guard_suit
+  - first:
+      4: 400168
+    second: seller_suit
+  - first:
+      4: 400170
+    second: shirt
+  - first:
+      4: 400172
+    second: shoes1
+  - first:
+      4: 400174
+    second: shoes2
+  - first:
+      4: 400176
+    second: shoes3
+  - first:
+      4: 400178
+    second: shortpants
+  - first:
+      4: 400180
+    second: simple_custom_human
+  - first:
+      4: 400182
+    second: Spot
+  - first:
+      4: 400184
+    second: Spot.001
+  - first:
+      4: 400186
+    second: Spot.002
+  - first:
+      4: 400188
+    second: Spot.003
+  - first:
+      4: 400190
+    second: t_shirt
+  - first:
+      4: 400192
+    second: tank_top
+  - first:
+      4: 400194
+    second: trousers
+  - first:
+      4: 400196
+    second: worker
+  - first:
+      4: 400198
+    second: hair_e
+  - first:
+      4: 400200
+    second: Bone_002
+  - first:
+      4: 400202
+    second: Bone_004
+  - first:
+      4: 400204
+    second: Bone_005
+  - first:
+      4: 400206
+    second: Bone_006
+  - first:
+      4: 400208
+    second: Bone_007
+  - first:
+      4: 400210
+    second: Bone_008
+  - first:
+      4: 400212
+    second: Bone_009
+  - first:
+      4: 400214
+    second: Bone_010
+  - first:
+      4: 400216
+    second: Bone_011
+  - first:
+      4: 400218
+    second: Bone_012
+  - first:
+      4: 400220
+    second: Bone_013
+  - first:
+      4: 400222
+    second: Bone_014
+  - first:
+      4: 400224
+    second: Bone_015
+  - first:
+      4: 400226
+    second: Bone_016
+  - first:
+      4: 400228
+    second: Bone_017
+  - first:
+      4: 400230
+    second: Bone_018
+  - first:
+      4: 400232
+    second: Bone_019
+  - first:
+      4: 400234
+    second: Bone_021
+  - first:
+      4: 400236
+    second: Bone_022
+  - first:
+      4: 400238
+    second: Bone_023
+  - first:
+      4: 400240
+    second: Bone_024
+  - first:
+      4: 400242
+    second: Bone_025
+  - first:
+      4: 400244
+    second: Bone_026
+  - first:
+      4: 400246
+    second: glasses
+  - first:
+      4: 400248
+    second: hat_001
+  - first:
+      4: 400250
+    second: hat_002
+  - first:
+      4: 400252
+    second: hat_003
+  - first:
+      4: 400254
+    second: hat_004
+  - first:
+      4: 400256
+    second: hat_005
+  - first:
+      4: 400258
+    second: hat_006
+  - first:
+      4: 400260
+    second: hat_007
+  - first:
+      4: 400262
+    second: Plane
+  - first:
+      4: 400264
+    second: Plane.001
+  - first:
+      20: 2000000
+    second: Camera
+  - first:
+      21: 2100000
+    second: Material.001
+  - first:
+      21: 2100002
+    second: Material.032
+  - first:
+      21: 2100004
+    second: Material.036
+  - first:
+      21: 2100006
+    second: Material.035
+  - first:
+      21: 2100008
+    second: Material.034
+  - first:
+      21: 2100010
+    second: Material.033
+  - first:
+      21: 2100012
+    second: Material.030
+  - first:
+      21: 2100014
+    second: Material.031
+  - first:
+      21: 2100016
+    second: Material.029
+  - first:
+      21: 2100018
+    second: Material.028
+  - first:
+      21: 2100020
+    second: Material.027
+  - first:
+      21: 2100022
+    second: Material.026
+  - first:
+      21: 2100024
+    second: Material.014
+  - first:
+      21: 2100026
+    second: Material.020
+  - first:
+      21: 2100028
+    second: Material.022
+  - first:
+      21: 2100030
+    second: Material.023
+  - first:
+      21: 2100032
+    second: Material.018
+  - first:
+      21: 2100034
+    second: Material.025
+  - first:
+      21: 2100036
+    second: Material.024
+  - first:
+      21: 2100038
+    second: Material.019
+  - first:
+      21: 2100040
+    second: Material.021
+  - first:
+      21: 2100042
+    second: Material.007
+  - first:
+      21: 2100044
+    second: Material.009
+  - first:
+      21: 2100046
+    second: Material
+  - first:
+      21: 2100048
+    second: Material.008
+  - first:
+      21: 2100050
+    second: Material.003
+  - first:
+      21: 2100052
+    second: Material.006
+  - first:
+      21: 2100054
+    second: Material.005
+  - first:
+      21: 2100056
+    second: Material.004
+  - first:
+      21: 2100058
+    second: Material.017
+  - first:
+      21: 2100060
+    second: Material.002
+  - first:
+      21: 2100062
+    second: Material.011
+  - first:
+      21: 2100064
+    second: Material.012
+  - first:
+      21: 2100066
+    second: Material.016
+  - first:
+      21: 2100068
+    second: Material.015
+  - first:
+      21: 2100070
+    second: No Name
+  - first:
+      21: 2100072
+    second: Material.013
+  - first:
+      21: 2100074
+    second: Material.010
+  - first:
+      21: 2100076
+    second: Material_001__skin
+  - first:
+      21: 2100078
+    second: Material_001__skin_Lightbrown_brown_png
+  - first:
+      21: 2100080
+    second: Material_036
+  - first:
+      21: 2100082
+    second: Material_035
+  - first:
+      21: 2100084
+    second: Material_034
+  - first:
+      21: 2100086
+    second: Material_033
+  - first:
+      21: 2100088
+    second: Material_030
+  - first:
+      21: 2100090
+    second: Material_031__skin
+  - first:
+      21: 2100092
+    second: Material_031
+  - first:
+      21: 2100094
+    second: Material_029__skin
+  - first:
+      21: 2100096
+    second: Material_028__hair_b_
+  - first:
+      21: 2100098
+    second: Material_027__skin
+  - first:
+      21: 2100100
+    second: Material_026__worker_suit
+  - first:
+      21: 2100102
+    second: Material_014__secureityguard_suit
+  - first:
+      21: 2100104
+    second: Material_014
+  - first:
+      21: 2100106
+    second: Material_020__secureityguard_suit
+  - first:
+      21: 2100108
+    second: Material_022__robber_suit
+  - first:
+      21: 2100110
+    second: Material_022__skin
+  - first:
+      21: 2100112
+    second: Material_023__police_suit
+  - first:
+      21: 2100114
+    second: Material_018
+  - first:
+      21: 2100116
+    second: Material_018__skin
+  - first:
+      21: 2100118
+    second: Material_025
+  - first:
+      21: 2100120
+    second: Material_025__farmer_suit
+  - first:
+      21: 2100122
+    second: Material_025__shoes1_
+  - first:
+      21: 2100124
+    second: Material_025__secureityguard_suit
+  - first:
+      21: 2100126
+    second: Material_024__fireman_suit
+  - first:
+      21: 2100128
+    second: Material_019__farmer_suit
+  - first:
+      21: 2100130
+    second: Material_019
+  - first:
+      21: 2100132
+    second: Material_021__cook_suit
+  - first:
+      21: 2100134
+    second: Material_007__banker_suit
+  - first:
+      21: 2100136
+    second: Material_007
+  - first:
+      21: 2100138
+    second: Material_009
+  - first:
+      21: 2100140
+    second: Material__tanktop_
+  - first:
+      21: 2100142
+    second: Material_008
+  - first:
+      21: 2100144
+    second: Material_003__trousers_001
+  - first:
+      21: 2100146
+    second: Material_006__shoes1_
+  - first:
+      21: 2100148
+    second: Material_005__shoes1_
+  - first:
+      21: 2100150
+    second: Material_004__shirt_
+  - first:
+      21: 2100152
+    second: Material_017
+  - first:
+      21: 2100154
+    second: Material_002__pulover_001
+  - first:
+      21: 2100156
+    second: Material_011__jacket
+  - first:
+      21: 2100158
+    second: Material_012__glasses1_
+  - first:
+      21: 2100160
+    second: Material_016__chain3_
+  - first:
+      21: 2100162
+    second: Material_015__chain2
+  - first:
+      21: 2100164
+    second: None__chain2
+  - first:
+      21: 2100166
+    second: Material_013__cap2
+  - first:
+      21: 2100168
+    second: Material_010__cap2
+  - first:
+      21: 2100170
+    second: Material_010__cap_
+  - first:
+      21: 2100172
+    second: Material_032
+  - first:
+      21: 2100174
+    second: material2
+  - first:
+      21: 2100176
+    second: material1
+  - first:
+      21: 2100178
+    second: material3.001
+  - first:
+      23: 2300000
+    second: beard
+  - first:
+      23: 2300002
+    second: cloth
+  - first:
+      23: 2300004
+    second: complet_suits
+  - first:
+      23: 2300006
+    second: hair
+  - first:
+      23: 2300008
+    second: props
+  - first:
+      23: 2300010
+    second: Plane
+  - first:
+      23: 2300012
+    second: Plane.001
+  - first:
+      33: 3300000
+    second: beard
+  - first:
+      33: 3300002
+    second: cloth
+  - first:
+      33: 3300004
+    second: complet_suits
+  - first:
+      33: 3300006
+    second: hair
+  - first:
+      33: 3300008
+    second: props
+  - first:
+      33: 3300010
+    second: Plane
+  - first:
+      33: 3300012
+    second: Plane.001
+  - first:
+      43: 4300000
+    second: human_mesh
+  - first:
+      43: 4300002
+    second: beard
+  - first:
+      43: 4300004
+    second: beard_d
+  - first:
+      43: 4300006
+    second: beard_c
+  - first:
+      43: 4300008
+    second: beard_b
+  - first:
+      43: 4300010
+    second: beard_a
+  - first:
+      43: 4300012
+    second: props
+  - first:
+      43: 4300014
+    second: phone
+  - first:
+      43: 4300016
+    second: fireaxe
+  - first:
+      43: 4300018
+    second: glock
+  - first:
+      43: 4300020
+    second: bullet
+  - first:
+      43: 4300022
+    second: crowbar
+  - first:
+      43: 4300024
+    second: cigarette
+  - first:
+      43: 4300026
+    second: hair
+  - first:
+      43: 4300028
+    second: hair_d
+  - first:
+      43: 4300030
+    second: hair_c
+  - first:
+      43: 4300032
+    second: hair_b
+  - first:
+      43: 4300034
+    second: hair_a
+  - first:
+      43: 4300036
+    second: cloth
+  - first:
+      43: 4300038
+    second: complet_suits
+  - first:
+      43: 4300040
+    second: worker
+  - first:
+      43: 4300042
+    second: hat
+  - first:
+      43: 4300044
+    second: seller_suit
+  - first:
+      43: 4300046
+    second: security_guard_suit
+  - first:
+      43: 4300048
+    second: hat.006
+  - first:
+      43: 4300050
+    second: roober_suit
+  - first:
+      43: 4300052
+    second: hat.005
+  - first:
+      43: 4300054
+    second: police_suit
+  - first:
+      43: 4300056
+    second: hat.007
+  - first:
+      43: 4300058
+    second: nurse_suit
+  - first:
+      43: 4300060
+    second: mechanic
+  - first:
+      43: 4300062
+    second: hat.004
+  - first:
+      43: 4300064
+    second: fireman_suit
+  - first:
+      43: 4300066
+    second: hat.002
+  - first:
+      43: 4300068
+    second: farmer_suit
+  - first:
+      43: 4300070
+    second: hat.001
+  - first:
+      43: 4300072
+    second: cook_suit
+  - first:
+      43: 4300074
+    second: hat.003
+  - first:
+      43: 4300076
+    second: banker_suit
+  - first:
+      43: 4300078
+    second: trousers
+  - first:
+      43: 4300080
+    second: tank_top
+  - first:
+      43: 4300082
+    second: t_shirt
+  - first:
+      43: 4300084
+    second: shortpants
+  - first:
+      43: 4300086
+    second: shoes3
+  - first:
+      43: 4300088
+    second: shoes2
+  - first:
+      43: 4300090
+    second: shoes1
+  - first:
+      43: 4300092
+    second: shirt
+  - first:
+      43: 4300094
+    second: scarf
+  - first:
+      43: 4300096
+    second: pullover
+  - first:
+      43: 4300098
+    second: jacket
+  - first:
+      43: 4300100
+    second: glasses1
+  - first:
+      43: 4300102
+    second: chain3
+  - first:
+      43: 4300104
+    second: chain2
+  - first:
+      43: 4300106
+    second: chain1
+  - first:
+      43: 4300108
+    second: cap3
+  - first:
+      43: 4300110
+    second: cap2
+  - first:
+      43: 4300112
+    second: cap
+  - first:
+      43: 4300114
+    second: human_head_mesh
+  - first:
+      43: 4300116
+    second: hair_e
+  - first:
+      43: 4300118
+    second: hat_006
+  - first:
+      43: 4300120
+    second: hat_005
+  - first:
+      43: 4300122
+    second: hat_007
+  - first:
+      43: 4300124
+    second: hat_004
+  - first:
+      43: 4300126
+    second: hat_002
+  - first:
+      43: 4300128
+    second: hat_001
+  - first:
+      43: 4300130
+    second: hat_003
+  - first:
+      43: 4300132
+    second: glasses
+  - first:
+      43: 4300134
+    second: Plane.001
+  - first:
+      43: 4300136
+    second: Plane
+  - first:
+      74: 7400000
+    second: simple_custom_human|crowbar_hit
+  - first:
+      74: 7400002
+    second: simple_custom_human|crowbar_idle
+  - first:
+      74: 7400004
+    second: simple_custom_human|crowbar_work
+  - first:
+      74: 7400006
+    second: simple_custom_human|drinking
+  - first:
+      74: 7400008
+    second: simple_custom_human|eating
+  - first:
+      74: 7400010
+    second: simple_custom_human|fireaxe_hit
+  - first:
+      74: 7400012
+    second: simple_custom_human|fireaxe_idle
+  - first:
+      74: 7400014
+    second: simple_custom_human|glock_aim
+  - first:
+      74: 7400016
+    second: simple_custom_human|glock_aim_shoot
+  - first:
+      74: 7400018
+    second: simple_custom_human|glock_idle
+  - first:
+      74: 7400020
+    second: simple_custom_human|glock_idle_shoot
+  - first:
+      74: 7400022
+    second: simple_custom_human|glock_reload
+  - first:
+      74: 7400024
+    second: simple_custom_human|goto_crowbar_work
+  - first:
+      74: 7400026
+    second: simple_custom_human|goto_ducking_afraid
+  - first:
+      74: 7400028
+    second: simple_custom_human|goto_hanging_up_wall
+  - first:
+      74: 7400030
+    second: simple_custom_human|goto_phone_call
+  - first:
+      74: 7400032
+    second: simple_custom_human|hanging_up_wall
+  - first:
+      74: 7400034
+    second: simple_custom_human|head_up_move
+  - first:
+      74: 7400036
+    second: simple_custom_human|head_up_stay
+  - first:
+      74: 7400038
+    second: simple_custom_human|hello
+  - first:
+      74: 7400040
+    second: simple_custom_human|hit_left
+  - first:
+      74: 7400042
+    second: simple_custom_human|hit_ready_idle
+  - first:
+      74: 7400044
+    second: simple_custom_human|hit_right
+  - first:
+      74: 7400046
+    second: simple_custom_human|idle
+  - first:
+      74: 7400048
+    second: simple_custom_human|look_around_1
+  - first:
+      74: 7400050
+    second: simple_custom_human|look_around_2
+  - first:
+      74: 7400052
+    second: simple_custom_human|look_around_3
+  - first:
+      74: 7400054
+    second: simple_custom_human|look_around_4
+  - first:
+      74: 7400056
+    second: simple_custom_human|phone_call
+  - first:
+      74: 7400058
+    second: simple_custom_human|run
+  - first:
+      74: 7400060
+    second: simple_custom_human|sit_down
+  - first:
+      74: 7400062
+    second: simple_custom_human|sitting
+  - first:
+      74: 7400064
+    second: simple_custom_human|smoking
+  - first:
+      74: 7400066
+    second: simple_custom_human|walk
+  - first:
+      74: 7400068
+    second: simple_custom_human|walk_ducking
+  - first:
+      74: 7400070
+    second: simple_custom_human|hands_up_move
+  - first:
+      74: 7400072
+    second: simple_custom_human|heads_up_stay
+  - first:
+      74: 7400074
+    second: simple_custom_human|in_ducking_afraid
+  - first:
+      74: 7400076
+    second: simple_custom_human|hello (1)
+  - first:
+      74: 7400078
+    second: simple_custom_human|dancing
+  - first:
+      74: 7400080
+    second: simple_custom_human|pick_up
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      108: 10800000
+    second: Spot
+  - first:
+      108: 10800002
+    second: Spot.001
+  - first:
+      108: 10800004
+    second: Spot.002
+  - first:
+      108: 10800006
+    second: Spot.003
+  - first:
+      137: 13700000
+    second: banker_suit
+  - first:
+      137: 13700002
+    second: beard_a
+  - first:
+      137: 13700004
+    second: beard_b
+  - first:
+      137: 13700006
+    second: beard_c
+  - first:
+      137: 13700008
+    second: beard_d
+  - first:
+      137: 13700010
+    second: bullet
+  - first:
+      137: 13700012
+    second: cap
+  - first:
+      137: 13700014
+    second: cap2
+  - first:
+      137: 13700016
+    second: cap3
+  - first:
+      137: 13700018
+    second: chain1
+  - first:
+      137: 13700020
+    second: chain2
+  - first:
+      137: 13700022
+    second: chain3
+  - first:
+      137: 13700024
+    second: cigarette
+  - first:
+      137: 13700026
+    second: cook_suit
+  - first:
+      137: 13700028
+    second: crowbar
+  - first:
+      137: 13700030
+    second: farmer_suit
+  - first:
+      137: 13700032
+    second: fireaxe
+  - first:
+      137: 13700034
+    second: fireman_suit
+  - first:
+      137: 13700036
+    second: glasses1
+  - first:
+      137: 13700038
+    second: glock
+  - first:
+      137: 13700040
+    second: hair_a
+  - first:
+      137: 13700042
+    second: hair_b
+  - first:
+      137: 13700044
+    second: hair_c
+  - first:
+      137: 13700046
+    second: hair_d
+  - first:
+      137: 13700048
+    second: hat
+  - first:
+      137: 13700050
+    second: hat.001
+  - first:
+      137: 13700052
+    second: hat.002
+  - first:
+      137: 13700054
+    second: hat.003
+  - first:
+      137: 13700056
+    second: hat.004
+  - first:
+      137: 13700058
+    second: hat.005
+  - first:
+      137: 13700060
+    second: hat.006
+  - first:
+      137: 13700062
+    second: hat.007
+  - first:
+      137: 13700064
+    second: human_head_mesh
+  - first:
+      137: 13700066
+    second: human_mesh
+  - first:
+      137: 13700068
+    second: jacket
+  - first:
+      137: 13700070
+    second: mechanic
+  - first:
+      137: 13700072
+    second: nurse_suit
+  - first:
+      137: 13700074
+    second: phone
+  - first:
+      137: 13700076
+    second: police_suit
+  - first:
+      137: 13700078
+    second: pullover
+  - first:
+      137: 13700080
+    second: roober_suit
+  - first:
+      137: 13700082
+    second: scarf
+  - first:
+      137: 13700084
+    second: security_guard_suit
+  - first:
+      137: 13700086
+    second: seller_suit
+  - first:
+      137: 13700088
+    second: shirt
+  - first:
+      137: 13700090
+    second: shoes1
+  - first:
+      137: 13700092
+    second: shoes2
+  - first:
+      137: 13700094
+    second: shoes3
+  - first:
+      137: 13700096
+    second: shortpants
+  - first:
+      137: 13700098
+    second: t_shirt
+  - first:
+      137: 13700100
+    second: tank_top
+  - first:
+      137: 13700102
+    second: trousers
+  - first:
+      137: 13700104
+    second: worker
+  - first:
+      137: 13700106
+    second: hair_e
+  - first:
+      137: 13700108
+    second: glasses
+  - first:
+      137: 13700110
+    second: hat_001
+  - first:
+      137: 13700112
+    second: hat_002
+  - first:
+      137: 13700114
+    second: hat_003
+  - first:
+      137: 13700116
+    second: hat_004
+  - first:
+      137: 13700118
+    second: hat_005
+  - first:
+      137: 13700120
+    second: hat_006
+  - first:
+      137: 13700122
+    second: hat_007
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -563,6 +1661,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -583,6 +1682,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|crowbar_hit
       takeName: simple_custom_human|crowbar_hit
+      internalID: 0
       firstFrame: 0
       lastFrame: 11
       wrapMode: 0
@@ -611,6 +1711,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|crowbar_idle
       takeName: simple_custom_human|crowbar_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -639,6 +1740,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|crowbar_work
       takeName: simple_custom_human|crowbar_work
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -667,6 +1769,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|drinking
       takeName: simple_custom_human|drinking
+      internalID: 0
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
@@ -695,6 +1798,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|eating
       takeName: simple_custom_human|eating
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -723,6 +1827,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|fireaxe_hit
       takeName: simple_custom_human|fireaxe_hit
+      internalID: 0
       firstFrame: 0
       lastFrame: 12
       wrapMode: 0
@@ -751,6 +1856,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|fireaxe_idle
       takeName: simple_custom_human|fireaxe_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -779,6 +1885,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|glock_aim
       takeName: simple_custom_human|glock_aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -807,6 +1914,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|glock_aim_shoot
       takeName: simple_custom_human|glock_aim_shoot
+      internalID: 0
       firstFrame: 0
       lastFrame: 7
       wrapMode: 0
@@ -835,6 +1943,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|glock_idle
       takeName: simple_custom_human|glock_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -863,6 +1972,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|glock_idle_shoot
       takeName: simple_custom_human|glock_idle_shoot
+      internalID: 0
       firstFrame: 0
       lastFrame: 7
       wrapMode: 0
@@ -891,6 +2001,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|glock_reload
       takeName: simple_custom_human|glock_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 37
       wrapMode: 0
@@ -919,6 +2030,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|goto_crowbar_work
       takeName: simple_custom_human|goto_crowbar_work
+      internalID: 0
       firstFrame: 0
       lastFrame: 3
       wrapMode: 0
@@ -947,6 +2059,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|goto_ducking_afraid
       takeName: simple_custom_human|goto_ducking_afraid
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -975,6 +2088,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|goto_hanging_up_wall
       takeName: simple_custom_human|goto_hanging_up_wall
+      internalID: 0
       firstFrame: 0
       lastFrame: 12
       wrapMode: 0
@@ -1003,6 +2117,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|goto_phone_call
       takeName: simple_custom_human|goto_phone_call
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -1031,6 +2146,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hands_up_move
       takeName: simple_custom_human|hands_up_move
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -1059,6 +2175,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hanging_up_wall
       takeName: simple_custom_human|hanging_up_wall
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -1087,6 +2204,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|heads_up_stay
       takeName: simple_custom_human|heads_up_stay
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -1115,6 +2233,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hello
       takeName: simple_custom_human|hello
+      internalID: 0
       firstFrame: 0
       lastFrame: 29
       wrapMode: 0
@@ -1143,6 +2262,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hit_left
       takeName: simple_custom_human|hit_left
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -1171,6 +2291,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hit_ready_idle
       takeName: simple_custom_human|hit_ready_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -1199,6 +2320,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|hit_right
       takeName: simple_custom_human|hit_right
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -1227,6 +2349,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|idle
       takeName: simple_custom_human|idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 20
       wrapMode: 0
@@ -1255,6 +2378,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|look_around_1
       takeName: simple_custom_human|look_around_1
+      internalID: 0
       firstFrame: 0
       lastFrame: 53
       wrapMode: 0
@@ -1283,6 +2407,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|look_around_2
       takeName: simple_custom_human|look_around_2
+      internalID: 0
       firstFrame: 0
       lastFrame: 92
       wrapMode: 0
@@ -1311,6 +2436,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|look_around_3
       takeName: simple_custom_human|look_around_3
+      internalID: 0
       firstFrame: 0
       lastFrame: 26
       wrapMode: 0
@@ -1339,6 +2465,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|look_around_4
       takeName: simple_custom_human|look_around_4
+      internalID: 0
       firstFrame: 0
       lastFrame: 23
       wrapMode: 0
@@ -1367,6 +2494,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|phone_call
       takeName: simple_custom_human|phone_call
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -1395,6 +2523,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|run
       takeName: simple_custom_human|run
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -1423,6 +2552,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|sit_down
       takeName: simple_custom_human|sit_down
+      internalID: 0
       firstFrame: 0
       lastFrame: 4
       wrapMode: 0
@@ -1451,6 +2581,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|sitting
       takeName: simple_custom_human|sitting
+      internalID: 0
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -1479,6 +2610,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|smoking
       takeName: simple_custom_human|smoking
+      internalID: 0
       firstFrame: 0
       lastFrame: 33
       wrapMode: 0
@@ -1507,6 +2639,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|walk
       takeName: simple_custom_human|walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -1535,6 +2668,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|walk_ducking
       takeName: simple_custom_human|walk_ducking
+      internalID: 0
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -1563,6 +2697,7 @@ ModelImporter:
     - serializedVersion: 16
       name: simple_custom_human|pick_up
       takeName: simple_custom_human|pick_up
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -1592,28 +2727,39 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -1622,10 +2768,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -1635,13 +2781,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

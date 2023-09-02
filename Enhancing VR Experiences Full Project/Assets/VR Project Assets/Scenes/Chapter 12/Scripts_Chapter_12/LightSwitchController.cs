@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightSwitch : MonoBehaviour
+public class LightSwitchController : MonoBehaviour
 {
     public bool lightsOn = true;                // Whether the lights are currently on or off
     //public List<Light> lightsToSwitch;          // The list of lights to turn on or off

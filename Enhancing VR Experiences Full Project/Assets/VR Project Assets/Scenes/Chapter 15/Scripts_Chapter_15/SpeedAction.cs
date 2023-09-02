@@ -25,11 +25,11 @@ public class SpeedAction : MonoBehaviour
     {
         if (superSpeed)
         {
-            //moveProvider.moveSpeed = speedBoost;
+            moveProvider.moveSpeed = currentSpeed * speedBoost;
         }
         else
         {
-           // moveProvider.moveSpeed = currentSpeed;
+           moveProvider.moveSpeed = currentSpeed;
         }
     }
     public void SpeedOn()
