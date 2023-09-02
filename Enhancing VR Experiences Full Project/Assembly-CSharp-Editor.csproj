@@ -1036,6 +1036,10 @@
       <Project>{0F0C6DBD-16A7-60A1-0CFC-0B3A6A640C53}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.MemoryProfiler.csproj">
+      <Project>{4E1DBBE8-1E60-0AE0-9043-817440540C63}</Project>
+      <Name>Unity.MemoryProfiler</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Sequences.csproj">
       <Project>{C1E360EA-07A1-8320-C4B8-958AD0E42DBD}</Project>
       <Name>Unity.Sequences</Name>
@@ -1043,6 +1047,10 @@
     <ProjectReference Include="Timeline.Samples.TimeDilation.csproj">
       <Project>{3855ABD9-27F4-7491-CB3A-D5D4E6DEE932}</Project>
       <Name>Timeline.Samples.TimeDilation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule.csproj">
+      <Project>{60BCD32D-ADEF-1EA2-2429-6C8F2E5B3D8D}</Project>
+      <Name>Unity.MemoryProfiler.Editor.MemoryProfilerModule</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{54C49FFC-2A94-2258-BF95-D650B5930C11}</Project>
@@ -1155,6 +1163,10 @@
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{86044B1A-C0D4-687D-17BE-561CF056534A}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MemoryProfiler.Editor.csproj">
+      <Project>{15BF9999-49DE-F75C-AF40-0FAC2E7E6A61}</Project>
+      <Name>Unity.MemoryProfiler.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
       <Project>{98EBBB67-3905-5139-FEC9-F222E5CF1623}</Project>
