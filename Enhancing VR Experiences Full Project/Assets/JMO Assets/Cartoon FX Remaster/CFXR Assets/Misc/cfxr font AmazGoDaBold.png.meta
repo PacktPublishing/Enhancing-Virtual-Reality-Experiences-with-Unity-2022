@@ -224,11 +224,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -267,20 +268,22 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 8192
@@ -291,8 +294,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 8192
@@ -303,8 +307,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 8192
@@ -315,8 +320,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 8192
@@ -327,8 +333,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1771,77 +1778,76 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      amz2_37: 21300074
       amz2_0: 21300000
-      amz2_32: 21300064
-      amz2_63: 21300126
-      amz2_44: 21300088
-      amz2_29: 21300058
-      amz2_40: 21300080
-      amz2_11: 21300022
-      amz2_21: 21300042
-      amz2_18: 21300036
-      amz2_23: 21300046
-      amz2_25: 21300050
-      amz2_38: 21300076
-      amz2_28: 21300056
-      amz2_57: 21300114
-      amz2_33: 21300066
-      amz2_22: 21300044
-      amz2_41: 21300082
-      amz2_60: 21300120
-      amz2_9: 21300018
-      amz2_20: 21300040
-      amz2_16: 21300032
-      amz2_43: 21300086
-      amz2_50: 21300100
-      amz2_27: 21300054
-      amz2_55: 21300110
-      amz2_64: 21300128
-      amz2_67: 21300134
-      amz2_45: 21300090
-      amz2_46: 21300092
-      amz2_49: 21300098
-      amz2_56: 21300112
-      amz2_61: 21300122
-      amz2_2: 21300004
-      amz2_3: 21300006
-      amz2_47: 21300094
-      amz2_6: 21300012
-      amz2_39: 21300078
-      amz2_17: 21300034
-      amz2_53: 21300106
-      amz2_36: 21300072
-      amz2_35: 21300070
-      amz2_8: 21300016
-      amz2_5: 21300010
-      amz2_7: 21300014
-      amz2_19: 21300038
-      amz2_30: 21300060
-      amz2_48: 21300096
-      amz2_58: 21300116
-      amz2_62: 21300124
-      amz2_34: 21300068
-      amz2_15: 21300030
-      amz2_54: 21300108
-      amz2_59: 21300118
-      amz2_66: 21300132
-      amz2_42: 21300084
       amz2_1: 21300002
       amz2_10: 21300020
-      amz2_13: 21300026
-      amz2_4: 21300008
-      amz2_31: 21300062
-      amz2_26: 21300052
-      amz2_14: 21300028
+      amz2_11: 21300022
       amz2_12: 21300024
+      amz2_13: 21300026
+      amz2_14: 21300028
+      amz2_15: 21300030
+      amz2_16: 21300032
+      amz2_17: 21300034
+      amz2_18: 21300036
+      amz2_19: 21300038
+      amz2_2: 21300004
+      amz2_20: 21300040
+      amz2_21: 21300042
+      amz2_22: 21300044
+      amz2_23: 21300046
       amz2_24: 21300048
+      amz2_25: 21300050
+      amz2_26: 21300052
+      amz2_27: 21300054
+      amz2_28: 21300056
+      amz2_29: 21300058
+      amz2_3: 21300006
+      amz2_30: 21300060
+      amz2_31: 21300062
+      amz2_32: 21300064
+      amz2_33: 21300066
+      amz2_34: 21300068
+      amz2_35: 21300070
+      amz2_36: 21300072
+      amz2_37: 21300074
+      amz2_38: 21300076
+      amz2_39: 21300078
+      amz2_4: 21300008
+      amz2_40: 21300080
+      amz2_41: 21300082
+      amz2_42: 21300084
+      amz2_43: 21300086
+      amz2_44: 21300088
+      amz2_45: 21300090
+      amz2_46: 21300092
+      amz2_47: 21300094
+      amz2_48: 21300096
+      amz2_49: 21300098
+      amz2_5: 21300010
+      amz2_50: 21300100
       amz2_51: 21300102
-      amz2_65: 21300130
       amz2_52: 21300104
-  spritePackingTag: 
+      amz2_53: 21300106
+      amz2_54: 21300108
+      amz2_55: 21300110
+      amz2_56: 21300112
+      amz2_57: 21300114
+      amz2_58: 21300116
+      amz2_59: 21300118
+      amz2_6: 21300012
+      amz2_60: 21300120
+      amz2_61: 21300122
+      amz2_62: 21300124
+      amz2_63: 21300126
+      amz2_64: 21300128
+      amz2_65: 21300130
+      amz2_66: 21300132
+      amz2_67: 21300134
+      amz2_7: 21300014
+      amz2_8: 21300016
+      amz2_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
